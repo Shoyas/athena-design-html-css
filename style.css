@@ -1,0 +1,477 @@
+body {
+	padding: 0;
+    margin: 0;
+    background-color: #FAFFFD;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    
+}
+/* Font style of website */
+.heading{
+    font-weight: 600;
+    font-size: 75px;
+    color: #0d052e;
+}
+.paragraph{
+    font-family: "Montserrat",sans-serif;
+    color: #8d8d8d;
+    font-weight: 400;
+    margin-top: -30px;
+}
+
+nav {
+	position: fixed;
+	z-index: 10;
+	left: 0;
+	right: 0;
+	top: 0;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0 5%;
+	height: 100px;
+    background-color: white;
+}
+nav .logo img {
+	float: left;
+	width: 10%;
+	height: 6%;
+	display: cover;
+	align-items: center;
+	font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+nav .links {
+	float: right;
+	padding: 0;
+	margin: 0;
+	width: 60%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+    
+}
+nav .links li {
+    list-style: none;
+    
+}
+nav .links a {
+	display: block;
+	padding: 1em;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+    text-decoration: none;
+    color: gray;
+}
+#nav-toggle {
+	position: absolute;
+	top: -100px;
+}
+nav .icon-burger {
+	display: none;
+	position: absolute;
+	right: 5%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+nav .icon-burger .line {
+	width: 30px;
+	height: 5px;
+	background-color: #0AB3E2;
+	margin: 5px;
+	border-radius: 3px;
+	transition: all .3s ease-in-out;
+}
+
+/* Global Button */
+
+.global-btn{
+    display: inline-block;
+    text-align: center;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border-radius: 30px 0;
+    padding: 10px 25px;
+    color: #fff;
+    font-weight: 500;
+    background: linear-gradient(to right, #0AB3E2, #1CD9B7);
+}
+.global-btn:hover{
+    background: linear-gradient(to right, rgba(4, 182, 231, 0.774), #17d6b3e1);
+}
+.global-btn:focus{
+    border: none;
+    outline: none;
+}
+.nav-font-color:hover{
+    color: black;
+}
+
+/* Header banner style part starts*/
+.container {
+	position: relative;
+	margin-top: 100px;
+}
+.container img {
+	display: block;
+	width: 100%;
+}
+
+.holder-container{
+    width: 100%;
+    display: flex;
+}
+
+.header-content-left{
+    flex: 1;
+    margin-top: 100px;
+    margin-left: 65px;
+    margin-right: 50px;
+}
+.header-content-right{
+    flex: 1;
+}
+/* Header banner style part ends*/
+
+/* What we do's card part style starts*/
+.tag-line{
+    text-align: center;
+}
+.cards-content{
+    width: 100%;
+    display: flex;
+    
+}
+.card-one{
+    flex: 1;
+    text-align: center;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.main-card .main-card-body{
+    padding: 20px;
+    height: 270px;
+    width: 25%px;
+    max-width: 95%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color:  #8D8D8D;
+}
+.main-card-num{
+    font-size: 20px;
+}
+
+.main-card .main-card-body{
+    border-radius: 80px 0px!important;
+    margin: 10px;   
+}
+.main-card .main-card-body{
+    border-radius: 0px 80!important;
+    margin: 10px;   
+}
+.main-card .main-card-body:hover{
+    box-shadow: 10px 10px 40px #9df0e1e1;
+    color: gray
+}
+/* What we do's card part style ends*/
+
+/* Stay Running & Project follows header banner style */
+
+/* Our achievement part  start from here*/
+
+.container-next {
+	position: relative;
+	margin-top: 30px;
+}
+
+/* Our achievement cards style starts*/
+.achieve .achievement{
+    padding: 20px;
+    height: 20%;
+    width: 83%;
+    text-align: center;
+    box-shadow: 10px 10px 40px #9df0e1e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color:  #8D8D8D;
+}
+.achieve-num{
+    font-size: 50px;
+}
+.achieve:nth-child(1) .achievement-one , 
+.achieve:nth-child(4) .achievement{
+    border-radius: 0px 80px 0px 80px!important;
+    margin: 10px;   
+}
+.achieve:nth-child(2) .achievement-one, 
+.achieve:nth-child(3) .achievement{
+    border-radius: 0px 80px 0px 80px!important;
+    margin: 10px;    
+}
+ 
+.achievement-two{
+    border-radius: 80px 0px 80px 0px!important;
+    margin: 10px;
+    height: 10% !important;
+
+}
+
+.achieve .achievement:hover{
+    background: linear-gradient(to right, rgba(4, 182, 231, 0.774), #17d6b3e1);
+    color: white;
+}
+.happy p{
+    color: white !important;
+}
+.achieve-status{
+    padding-left: 15px;
+}
+/* Our achievement cards style ends*/
+/* Our achievement part  start from here*/
+
+ /* Dedicated team part's style starts from here  */
+.pricing-content-one{
+    flex: 1;
+    text-align: center;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.pricing-container{
+    background-image: url("./athena-design/Illustration/Group 46x.png");
+    background-position: right;
+    margin-bottom: 0;
+}
+
+.section-title{
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+/* Pricing button style */
+.pricing-card:hover .pricing-btn{
+    display: block;
+}
+
+.pricing-btn{
+    text-align: center;
+    display: none;
+}
+
+.pricing-card{
+    border: none;
+    box-shadow: 5px 5px 50px  #1BD7BA;
+    height: 550px;
+}
+
+.pricing-card:hover{
+    border: 1px solid #1BD7BA;
+    box-shadow: 5px 5px 50px  #1BD7BA;
+    
+}
+
+.pricing-card:hover .price-tag{
+    border-bottom: none;
+}
+
+.price-tag{
+    border-bottom: 1px solid #1BD7BA;
+    padding-bottom: 20px;
+}
+
+.global-list ul li{
+    list-style: none;
+    font-size: 20px;
+    margin-left: -40px;
+}
+
+
+.card-body{
+    padding-top: 15px;
+}
+
+/* Footer part style from here */
+
+.contact-container{
+    background-image: url(../../images/Group\ 46@2x.png);
+    background-position: left;
+    margin-top: 0;
+    text-align: center;
+}
+label{
+    position: relative;
+    
+}
+input[type="text"]{
+    border: none;
+    width: 400px;
+    height: 40px;
+    padding: 0 15px;
+    box-shadow: 0px 0px 10px lightgray;
+
+}
+.contact-btn{
+    position: absolute;
+    height: 40px;
+    right: 0;
+    background: linear-gradient(to left, rgba(4, 182, 231, 0.774), #25fcdb);
+    color: white;
+
+}
+
+.footer-body{
+    margin-top: 80px;
+}
+.footer-body img{
+    height: 100px;
+    width: 150px;
+}
+
+.footer-item ul li{
+    list-style: none;
+    text-align: left;
+}
+.footer-item ul li a{
+    text-decoration: none;
+    
+}
+
+/* responsive starts from here */
+
+  /* responsive  for navigation*/
+
+@media screen and (max-width: 768px) {
+	nav .logo {
+		float: none;
+		width: 100%;
+        justify-content: left;
+        
+	}
+	nav .links {
+		float: none;
+		position: fixed;
+		z-index: 9;
+		left: 0;
+		right: 0;
+		top: 100px;
+		bottom: 100%;
+		width: auto;
+		height: auto;
+		flex-direction: column;
+		justify-content: space-evenly;
+		background-color: rgba(0,0,0,.8);
+		overflow: hidden;
+		box-sizing: border-box;
+		transition: all .5s ease-in-out;
+	}
+	nav .links a {
+		font-size: 20px;
+	}
+	nav :checked ~ .links {
+		bottom: 0;
+	}
+	nav .icon-burger {
+		display: block;
+	}
+	nav :checked ~ .icon-burger .line:nth-child(1) {
+		transform: translateY(10px) rotate(225deg);
+	}
+	nav :checked ~ .icon-burger .line:nth-child(3) {
+		transform: translateY(-10px) rotate(-225deg);
+	}
+	nav :checked ~ .icon-burger .line:nth-child(2) {
+		opacity: 0;
+	}
+	
+}
+
+
+/* custom responsive*/
+
+@media screen and (max-width: 360px) {
+    
+    .holder-container{
+        display: block;
+    }
+    .banner-img {
+        height: 200px;
+        width: 300px
+    }
+    .cards-content{
+        display: block;
+    }
+	input[type="text"]{
+        width: 300px;
+        height: 40px;
+        
+    
+    }
+}
+
+@media screen and (max-width: 411px) {
+    
+    .holder-container{
+        display: block;
+    }
+    .banner-img {
+        height: 50%px;
+        width: 80%px
+    }
+    .cards-content{
+        display: block;
+    }
+	input[type="text"]{
+        width: 300px;
+        height: 40px;
+        
+    
+    }
+}
+
+@media screen and (max-width: 414px) {
+    
+    .holder-container{
+        display: block;
+    }
+    .banner-img {
+        height: 50%px;
+        width: 80%px
+    }
+    .cards-content{
+        display: block;
+    }
+	input[type="text"]{
+        width: 300px;
+        height: 40px;
+        
+    
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .holder-container{
+        display: block;
+    }
+    .banner-img {
+        height: 50%px;
+        width: 80%px
+    }
+    .cards-content{
+        display: block;
+    }
+	input[type="text"]{
+        width: 300px;
+        height: 40px;
+        
+    
+    }
+}
